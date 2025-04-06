@@ -1,2 +1,10 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Distributes space around items */
+}
 
-/* Your CSS Code here. */
+/* Optional styling for individual items */
+.holder > * {
+  margin: 10px; /* Adds some spacing between items */
+}
